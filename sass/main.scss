@@ -1,6 +1,6 @@
 @import "abstracts/functions";
 @import "abstracts/mixins";
-@import "abstracts/variables";
+@import "abstracts/variable";
 
 @import "base/animation";
 @import "base/base";
@@ -9,20 +9,12 @@
 
 @import "pages/home";
 
-$color-primary: #55c57a;
-$color-primary-light: #7ed56f;
-$color-primary-dark: #28b485;
-
-$color-grey-dark: #777;
-$color-white: #fff;
-$color-black: #000;
-
 *,
 *::after,
 *::before {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
+    box-sizing: inherit; 
 }
 
 body {
@@ -157,7 +149,7 @@ header{
 
     &:hover {
         transform: translateY(-3px);
-        box-shadow: 0 10px 20px rgba($color-black.2);
+        box-shadow: 0 10px 20px rgba($color-black, .2);
 
         &::after {
             transform: scaleX(1.4) scaleY(1.6);
@@ -167,7 +159,7 @@ header{
 
     &:active {
         transform: translateY(-1px);
-        box-shadow: 0 5px 10px rgba($color-black.2); 
+        box-shadow: 0 5px 10px rgba($color-black, .2); 
     }
 
     &--white {
