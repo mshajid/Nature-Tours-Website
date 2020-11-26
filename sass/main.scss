@@ -157,8 +157,8 @@ header{
 .btn::after {
     content: "";
     display: inline-block;
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
     border-radius: 100px;
     position: absolute;
     top: 0;
@@ -178,6 +178,7 @@ header{
 
 .btn--animated {
     animation: moveInBottom .5s ease-out .75s;
+    animation-fill-mode: backwards;
     
 }
 
