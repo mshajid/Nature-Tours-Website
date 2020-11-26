@@ -11,14 +11,15 @@ header{
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     position: relative;
 
-    &__logo-box {
+    .header__logo-box {
         position: absolute;
-        top: 8rem;
+        top: 4rem;
         left: 4rem;
     }
 
     .header__logo {
-        height: 32px;
+        height: 3.5rem;
+        cursor: pointer;
         
     }
     

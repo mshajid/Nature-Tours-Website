@@ -119,12 +119,13 @@ header {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative; }
-  header__logo-box {
+  header .header__logo-box {
     position: absolute;
-    top: 8rem;
+    top: 4rem;
     left: 4rem; }
   header .header__logo {
-    height: 32px; }
+    height: 3.5rem;
+    cursor: pointer; }
   header .header__text-box {
     position: absolute;
     top: 40%;
