@@ -55,17 +55,20 @@ body {
   backface-visibility: hidden; }
   .heading-primary--main {
     display: block;
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 400;
     letter-spacing: 35px;
+    font-family: "Monoton", sans-serif !important;
     animation: moveInLeft;
     animation-duration: 2s;
     animation-timing-function: ease-out; }
   .heading-primary--sub {
     display: block;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 400;
     letter-spacing: 17.4px;
+    font-family: "Caveat", sans-serif !important;
+    text-transform: capitalize;
     animation: moveInRight;
     animation-duration: 2s;
     animation-timing-function: ease-in-out; }
